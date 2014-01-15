@@ -14,9 +14,13 @@
  	margin-left:auto;
  	margin-right:auto;
  	position:fixed;
+ 	z-index:5;
+ 	background-color:white;
  }
  
-#content-holder{margin-top:100px;}
+#content-holder{
+	margin-top:100px;
+	position:absolute;}
 
 nav {
   margin: 50px;
