@@ -9,8 +9,11 @@
   padding: 0;
 }
  
- #navbar{margin-left:auto;
- margin-right:auto;}
+ #navbar{
+ 	width:600px;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
  
 nav {
   margin: 50px;
