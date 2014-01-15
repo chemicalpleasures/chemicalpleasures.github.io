@@ -20,7 +20,8 @@
  
 #content-holder{
 	margin-top:100px;
-	position:absolute;}
+	position:absolute;
+	height:1000px;}
 
 nav {
   margin: 50px;
