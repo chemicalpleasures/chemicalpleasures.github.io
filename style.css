@@ -1,69 +1,59 @@
-#shiny {
-	background-color:red;
-	height:100px;
-	width:400px;
+body {
+    margin: 0;
 }
 
-* {
-  padding: 0;
+#page-container {
+    position: absolute;
+    width: 100%;
 }
- 
- #navbar{
- 	width:600px;
- 	height:100px;
- 	margin-left:auto;
- 	margin-right:auto;
- 	position:fixed;
- 	z-index:5;
- 	background-color:white;
- }
- 
-#content-holder{
-	margin-top:100px;
-	position:absolute;
-	height:1000px;}
 
-nav {
-  margin: 50px;
-  margin-left: auto;
-  margin-right: auto;
+.ontop {
+ position: fixed;
+ /* center the element */
+ right: 0;
+ left: 0;
+ margin-right: auto;
+ margin-left: auto;
+ /* give it dimensions */
+ height: 50px;
+ width: 100%;
+ text-align: center;
+ background-color: black;
 }
- 
-ul {
-  overflow: auto;
-  list-style-type: none;
+
+#content-holder {
+    margin-top: 50px;
+    background: white;
+    height: 1000px; /*to get some scrolling*/
 }
- 
-li {
-  height: 25px;
-  float: left;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
 }
- 
-li:last-child {
-  border-right: none;
+
+#navlist a {
+	color: white;
+	font-family: Helvetica;
+	font-weight: 800;
+	text-transform: uppercase;
+	}
+	
+.article {
+	width: 500px;
+	height: 500px;
+	background: pink;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
 }
- 
-li a {
-  text-decoration: none;
-  color: #ccc;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
-  text-transform: uppercase;
- 
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+
+.articletext {
+	text-align:center;
 }
- 
-li a:hover {
-  color: #666;
-}
- 
-li.active a {
-  font-weight: bold;
-  color: #333;
+
+body {
+	font-family: helvetica;
 }
