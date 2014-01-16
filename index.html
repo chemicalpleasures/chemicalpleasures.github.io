@@ -1,59 +1,31 @@
-body {
-    margin: 0;
-}
-
-#page-container {
-    position: absolute;
-    width: 100%;
-}
-
-.ontop {
- position: fixed;
- /* center the element */
- right: 0;
- left: 0;
- margin-right: auto;
- margin-left: auto;
- /* give it dimensions */
- height: 50px;
- width: 100%;
- text-align: center;
- background-color: black;
-}
-
-#content-holder {
-    margin-top: 50px;
-    background: white;
-    height: 1000px; /*to get some scrolling*/
-}
-
-#navlist li
-{
-display: inline;
-list-style-type: none;
-padding-right: 20px;
-}
-
-#navlist a {
-	color: white;
-	font-family: Helvetica;
-	font-weight: 800;
-	text-transform: uppercase;
-	}
-	
-.article {
-	width: 500px;
-	height: 500px;
-	background: pink;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 75px;
-}
-
-.articletext {
-	text-align:center;
-}
-
-body {
-	font-family: helvetica;
-}
+<html>
+<head>
+<title>Incredible Vibes</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<div id="page-container">
+    <div class="ontop">
+        <div id="navcontainer">
+        <ul id="navlist">
+        <li id="active"><a href="#" id="current">Item one</a></li>
+        <li><a href="#">Item two</a></li>
+        <li><a href="#">Item three</a></li>
+        <li><a href="#">Item four</a></li>
+        <li><a href="#">Item five</a></li>
+        </ul>
+        </div>
+    </div>
+    <div id="content-holder">
+		<div class="article">
+			<p class="articletext">
+			This is a website for me and by me.  Enjoy.
+			</p>
+		</div>
+		<div class="article">
+			<p class="articletext">
+			This is a website for me and by me.  Enjoy.
+			</p>
+		</div>
+    </div>
+</div>
+</html>
